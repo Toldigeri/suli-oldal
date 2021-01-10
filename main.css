@@ -1,0 +1,82 @@
+img{
+    border-radius:50% ;
+    padding: 1px;
+    background-color: #666;
+    filter: grayscale(15%) brightness(100%);
+    height: 150px;
+    width: 150px;
+    background-color:white;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 1.0s ease-in-out;
+    filter: grayscale(20%);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-transform: initial;
+    
+}
+body{
+    background-image: url("https://i.imgur.com/CO663Ij.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    color: yellow;
+}
+.ipari{
+    text-align: center;
+}
+.szakok{
+    text-align: center;
+    margin-bottom: 10%;
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: (0, hsla(0, 0%, 0%, .8),);
+    text-transform: uppercase;
+    line-height: 30px;
+}
+footer{
+    text-align: right;
+    margin-top: +150px;
+}
+.cimer{
+    text-align: center;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.kepek{
+    text-align: center;
+}
+#lista
+{
+    background-color: black;
+    color: white;
+}
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: white;
+    font-style: initial;
+    
+}
